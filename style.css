@@ -1,0 +1,175 @@
+#play {
+  position:relative;
+  left:510px;
+  top:-85px;
+  visibility:hidden;
+  height:40px;
+  width:75px;
+  border:2px solid grey;
+  border-radius:5px;
+}
+
+#container {
+  height:450px; 
+  width:600px;
+  border:3px solid black; 
+  border-radius:5px;
+  background-color:hsla(327, 100%, 15%, 1);
+  position:relative;  
+
+}
+
+#stand {
+
+  background-image:url('http://i59.tinypic.com/sbll48.png');
+  height:220px;
+  width:200px;
+
+ }
+
+#face {
+  background-image:url('http://i59.tinypic.com/6dx0ee.png');
+  height:60px;
+  width:60px;
+  position:relative;
+  top:-175px;
+  left:155px;
+  visibility:hidden;  
+
+
+
+}
+
+#body {
+background-image:url('http://i61.tinypic.com/27ywcg.png');
+  background-repeat: no-repeat;
+  position:relative;
+  height:50px;
+  top:-175px;
+  left:155px;
+  visibility:hidden;  
+
+}
+
+#left-arm {
+  background-image:url('http://i58.tinypic.com/2evvvac.png');
+  background-repeat: no-repeat;
+  position:relative;
+  height:70px;
+  width:40px;
+  top:-240px;
+  left:150px;
+  visibility:hidden;  
+
+
+}
+
+#right-arm{
+  background-image:url('http://i58.tinypic.com/vfuhyp.png');
+  background-repeat: no-repeat;
+  position:relative;
+  height:70px;
+  width:40px;
+  top:-300px;
+  left:190px;
+   visibility:hidden;  
+
+}
+
+#left-leg{
+  background-image:url('http://i57.tinypic.com/t4u5na.png');
+  background-repeat: no-repeat;
+  position:relative;
+  height:60px;
+  width:60px;
+  top:-335px;
+  left:135px;
+  visibility:hidden;  
+
+}
+
+#right-leg{
+  background-image:url('http://i61.tinypic.com/2dqplzb.png');
+  background-repeat: no-repeat;
+  position:relative;
+  height:50px;
+  width:60px;
+  top:-385px;
+  left:180px;
+  visibility:hidden; 
+
+}
+
+#alphabet {
+  height:100px;
+  width:250px;
+  position:relative;
+  top:-450px;
+  left:300px;
+  text-align:center;
+
+}
+
+#alphabet a {
+  font-size:25px;
+  text-decoration:none;
+  margin:5px;
+  font-family: 'Courgette', cursive;
+  font-weight:bold;
+  color:hsla(327, 13%, 28%, 1);
+
+}
+
+#alphabet a:hover {
+  color:hsla(327, 13%, 54%, 1);
+
+}
+
+#beingGuessedWord {
+  height:70px;
+  width:700px;
+  
+  position:relative;
+  top:-550px;
+  padding-top:20px;
+
+
+}
+
+.letterp {
+  border:2px solid black;
+  font-family:"Courgette", cursive;
+  font-size:22px;
+  margin:10px;
+  font-weight:bold;
+  padding:5px;
+  border-radius:5px;
+
+
+}
+
+#dash {
+  padding:5px;
+  margin:5px;
+  font-weight:bold;
+  font-family:serif;
+
+}
+
+#gameOver {
+
+
+ font-family:'Courgette', cursive;
+ font-size:15px;
+ font-weight:bold;
+ position:relative;
+ top:-670px;
+ left:300px;
+ height:70px;
+ width:280px;   
+ border-radius:5px;
+ text-align:center;   
+ visibility:hidden;      
+
+
+}
